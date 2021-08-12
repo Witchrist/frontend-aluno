@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contato</title>
+        <meta charset="utf-8">
+        <link href="css/stylecontato.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Formulário de Contato</h1>
+        <form>
+            <label for="nomeId">Nome</label>
+            <input type="text" id="nomeId" placeholder="Insira seu nome" required>
+            <br>
+            <label for="sobrenomeId">Sobrenome</label>
+            <input type="text" id="sobrenomeId" placeholder="Insira seu sobrenome" required>
+            <br>
+            <label for="emailId">Email</label>
+            <input type="text" id="emailId" placeholder="Insira seu email" required>
+            <br><hr><br>    
+            <label for="generoId">Gênero</label>
+            <br>
+            <input type="radio" name="genero" id ="femininoId" value="Feminino">
+            <label for="femininoId">Feminino</label>
+            <input type="radio" name="genero" id="masculinoId" value="Masculino">
+            <label for="masculinoId">Masculino</label>
+            <input type="radio" name="genero" id="prefiroId" value="Prefiro não responder">
+            <label for="prefiroId">Prefiro não responder</label>
+            <br><hr><br>
+            <label for="passatempoId">Passatempos</label>
+            <br>
+            <input type="checkbox" name="passatempoId" id ="lerId" value="Ler">
+            <label for="lerId">Ler livros</label>
+            <input type="checkbox" name="passatempoId" id ="cozinharId" value="Cozinhar">
+            <label for="cozinharId">Cozinhar</label>
+            <input type="checkbox" name="passatempoId" id ="jogarId" value="Jogar">
+            <label for="jogarId">Jogar Videogame</label>
+            <input type="checkbox" name="passatempoId" id ="serieId" value="Series">
+            <label for="serieId">Assistir Séries</label>
+            <input type="checkbox" name="passatempoId" id ="parqueId" value="Parque">
+            <label for="parqueId">Passear no Parque</label>
+            <input type="checkbox" name="passatempoId" id ="jardinagemId" value="Jardinagem">
+            <label for="jardinagemId">Jardinagem</label>
+            <hr>
+            <h4>Assunto da Mensagem</h4>
+            <select name="mensagem">
+                <option value="">Selecione...</option>
+                <option value="eleogio">Elogio</option>
+                <option value="reclamacao">Reclamação</option>
+                <option value="recomendacao">Recomendação</option>
+            </select>
+            <br><br>
+            <label for="comentarioId">Comentários</label>
+            <br>
+            <textarea type="text" id="comentarioId" placeholder="Escreva seus comentários" required></textarea>
+            <br>    
+            <button type="submit">Enviar</button>
+            <button type="reset">Excluir</button>
+        </form>
+    </body>
+</html>

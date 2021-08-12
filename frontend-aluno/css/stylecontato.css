@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Open+Sans:wght@300&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f1f8e9;
+}
+input:focus{
+    background-color: #c8e6c9;
+}
+
+textarea{ 
+    width: 300px;
+    height: 80px;
+    resize:vertical;
+}
+
+button:hover{
+    font-weight: bold;
+    background-color: #66bb6a;
+    text-decoration: underline;
+}
+input{
+    border-width: 2px;
+    border-style:double;
+}
+
+button{
+    font-family: 'Amatic SC', cursive;
+    border-radius: 4px;
+    width:60px;
+    height:30px;
+}

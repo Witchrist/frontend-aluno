@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Mirza&display=swap');
+
+*{box-sizing: border-box;}
+
+body{
+    background-color: rgba(218, 223, 224, 0.938);
+    font-family: 'Mirza', cursive;
+}
+
+header{
+    background-color: rgba(235, 182, 158, 0.438);
+    text-align: center;
+}
+
+footer{
+    background-color: #b39ddb;
+}
+
+section{
+    text-align: center;
+}
+
+.padrao{
+    width:960px;
+    padding: 30px;
+    border: 5px dotted black;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.conteudo{
+    display: inline-block;
+    padding:15px;
+    border: 5px dotted black;
+    vertical-align: top;
+}
+
+aside{
+    background-color: #bbdefb;
+    width:300px;
+}
+
+article{
+    background-color: #d1c4e9;
+    width: 660px;
+}
+
+.imagem{
+    width: 250px;
+}
+
+.destaque{
+    text-align: left;
+    background-color: rgba(100, 113, 252, 0.92);
+    border-radius: 3px 3px 0 0;
+    line-height: 25px;
+    color: #fff;
+    font-size: 22px;
+}
+
+
+

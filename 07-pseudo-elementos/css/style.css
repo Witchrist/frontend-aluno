@@ -1,0 +1,57 @@
+body{
+    background-color: royalblue;
+    font-weight: lighter;
+    color:rgb(177, 172, 172);
+}
+
+strong{
+    color:grey;
+}
+.container{
+    background-color: #fff;
+    width: 30vw;    
+    margin:20px auto;
+    border-radius: 2px;
+    padding: 10px;
+    list-style: none;
+    display: flex;
+    flex-direction: column; 
+}
+
+.perfil{
+    padding-left: 100px;
+    line-height: 20px;
+    margin: 20px 0
+}
+hr{
+    width:95%;
+    color:rgb(177, 172, 172);
+}
+
+.perfil::before{
+    content:"";
+    width:60px;
+    height: 60px;
+    display: block;
+    background-size: 60px;
+    position:absolute;
+    border-radius: 100%;
+    margin-left:-80px;
+    margin-top: -5px;
+}
+
+.user1::before{
+    background-image: url(../images/perfil-rick.jpg);
+}
+
+.user2::before{
+    background-image: url(../images/perfil-cersei2.png);
+}
+
+.user3::before{
+    background-image: url(../images/perfil-billy.jpg);
+}
+
+.user4::before{
+    background-image: url(../images/perfil-madoka.png);
+}

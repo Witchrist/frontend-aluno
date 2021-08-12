@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+body{
+    margin:0;
+    background-color: rgb(233, 229, 229);
+    font-family: 'Nunito', sans-serif;
+}
+
+#principal{
+    display: flex;
+    flex-direction: row;
+}
+/* inicio sidebar */
+.menu{
+    list-style: none;
+    width: 20vw;
+    height: 100vh;
+    background-color: rgb(30, 30, 44);
+    color: rgb(189, 185, 185);
+    margin-top:0;
+    margin-bottom:0;
+    padding: 0;
+    box-shadow:2px 0px 7px rgb(168, 167, 167);
+}
+
+.titulo-menu{
+    padding: 10px 0 20px 10px;
+    font-weight: bolder;
+    font-size:15px;
+    color: rgb(145, 142, 142);
+
+}
+
+.itens-menu{
+    padding:15px 0 15px 40px;
+    font-size:13px;
+}
+
+.itens-menu:hover{
+    background-color:rgb(27, 112, 209);
+    color: #fff;
+}
+
+.itens-menu::before{
+    content:"";
+    width:20px;
+    height:20px;
+    position:absolute;   
+    margin-left: -25px; 
+}
+
+.itens-menu::before{
+    background-image: url(../images/icon-usuario.png);
+    background-size: 20px;
+}
+
+
+/* fim sidebar */
+/* inicio menu header  */
+.conteudo{
+    width:80vw;
+}
+.menu-header{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    color: grey;
+    margin:0;
+    padding: 0;
+}
+
+.itens-menu-header{
+    padding: 15px 30px 10px 30px;
+    font-size: 15px;
+    font-weight:bolder;
+}
+
+.itens-menu-header:hover{
+    border-bottom: 2px solid rgb(27, 112, 209);
+    color: rgb(27, 112, 209);
+}
+
+.hr-menu-header{
+    margin-top: 0;
+    margin-left: 20px;
+}
+/* fim menu header  */
+.grupo-container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.container{
+    width:170px;
+    height: 150px;
+    margin-bottom: 10px;
+    background-color:rgb(231, 231, 231);
+    box-shadow:0px 2px 4px rgb(187, 186, 186);
+}
+
+.titulo-container{
+    height:15%;
+    padding-top:10px;
+    padding-left:10px;
+}
+
+.valor-container{
+    height:65%;
+    text-align: center;
+}
+
+.valor-1{
+    font-size:75px;
+    color: rgb(77, 165, 238);
+}
+
+.valor-2{
+    font-size:75px;
+    color: rgb(73, 46, 192);
+}
+
+.valor-3{
+    font-size:75px;
+    color: rgb(160, 77, 238);
+}
+
+.valor-4{
+    font-size:75px;
+    color: rgb(238, 88, 77);
+}
+
+.valor-5{
+    font-size:75px;
+    color: rgb(63, 160, 39);
+}
+
+
+.rodape-container{
+    margin:0;
+    padding:0;
+    height:20%;
+    border-top: 1px solid rgb(151, 147, 147);
+    background-color: rgb(180, 176, 176);
+    padding-left:2px;
+    padding-top:3px;
+}
+
+.banner{
+    margin:10px auto 10px;
+    width:97%;
+    height:200px;
+    background-color:rgb(233, 229, 229);
+    border: 1px solid black;
+    text-align: center;
+    padding: 50px;
+}
+
+.texto-banner{
+    display:block;
+}
+*{box-sizing:border-box};
